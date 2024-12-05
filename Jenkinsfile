@@ -6,7 +6,7 @@ pipeline {
     }
 
     stages {
-        // Stage 1: Checkout the repository from GitHub
+        // Stage 1: Checkout the repository 
         stage('Checkout') {
             steps {
                 checkout scm
