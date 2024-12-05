@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     environment {
-        NODE_HOME = '/usr/local/bin/node' // Adjust if needed
+        NODE_HOME = '/usr/local/bin/node' 
     }
 
     stages {
